@@ -2,6 +2,7 @@ IptablesLittleHttpFilter
 ========================
 
 A little http filter written with iptables rules
+The file containing the rules : << filter.sh >>.
 
 <h4>How does it work?</h4>
 These iptables rules allow 5 connections / 20 seconds and 30 connections max per host.
