@@ -23,6 +23,5 @@ You can find an exemple here : http://unix.stackexchange.com/questions/76271/ipt
 
 <h4>Is it really effective?</h4>
 This is effective if you receive a flood of "zombie connections".
-It has been tested with 1000 ip zombies. The attack was blocked after the first 5 seconds. 
-With basic iptables rules, this attack increased the CPU of the server, and it created big lags, 
-even with LiteSpeed!
+It has been tested with an connection attack of 1000 ip zombies. This attack was blocked after the first 5 seconds with these rules :).
+But with basic iptables rules, this attack increased the CPU of the server, and it created big lags, even with LiteSpeed!
